@@ -1,0 +1,16 @@
+body {
+    background: red;
+}
+
+body {
+    background: blue;
+}
+p {
+    color: blueviolet;
+}
+p#unico1 {
+    color: red;
+}
+.classe1 {
+    color: green;
+}
