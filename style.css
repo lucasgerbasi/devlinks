@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     /*
     background-image: url(assets/darkbg.png);
@@ -9,13 +15,25 @@ body {
     /*background: color image repeat position/size */
     background: url(assets/darkbg.png) no-repeat top center/cover;  
 }
+body * {
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
 
 #container {
-    border: 1px solid red;
     width: 360px;
     height: 712px;
     margin: auto;
+    padding-top: 56px;
 }
-#img {
-    margin: auto;
+#profile {
+    text-align: center;
+    padding: 24px;
+}
+#profile img {
+    width: 112px;
+}
+#profile p {
+    font-weight: 500;
+    line-height: 24px;
 }
